@@ -1,0 +1,110 @@
+.topBarExit {
+    flex: 1 1 auto;
+}
+
+.grayBar{
+    background-color: #606060 !important;
+  }
+
+  .menuItems{    
+    border-radius:0%;
+    border-bottom: 1px solid #606060;
+    object-fit: cover;
+  }
+
+  .gridMargin{
+    border-radius:0%;
+    border-right: 1px solid #606060;
+  }
+
+  .whiteBack{
+    background-color: #ffff;
+  }
+
+  img {
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+  }
+
+  .cardImg{
+    display: initial !important;
+    background-color: #606060 !important;
+    box-shadow: none !important;
+    border-radius:0%;
+  }
+  
+  mat-grid-list {
+    justify-items: center;
+    
+  }
+
+  mat-grid-tile{
+    padding-bottom: 100px !important;
+  }
+
+  .orangeButton{
+    background-color: #eb5e46;
+    color: #ffff;
+
+  }
+
+  .iconEnd{
+    margin-left:39%;
+    align-content: end;
+    align-content: end;
+  }
+  .iconEndd{
+    margin-left:47%;
+    align-content: end;
+    align-content: end;
+  }
+
+.iconFix{
+    color: #606060 !important;
+    font-size: 39px;
+    align-content: center;
+    padding-right: 10px;
+    padding-bottom: 12px;
+}
+
+.textFix{
+    color: #606060 !important;
+    font-size: 17px;
+    align-content: center;
+    padding-bottom: 15px !important;
+    padding-left: 15px;
+}
+
+.textFixx{
+    color: #606060 !important;
+    font-size: 10px !important;
+    align-content: center;
+    padding-bottom: 5px !important;
+    padding-left: 22px !important;
+}
+
+mat-list-item{
+    padding: 0% !important;
+}
+
+.spacer{
+    padding-top: 397px !important;   
+}
+.textwhite{
+    color: #ffff !important;
+}
+
+.siderform{
+  padding-right: 200px !important;
+}
+
+app-form{
+  object-fit: cover;
+  justify-content: flex-start !important;
+  grid-column-start: 1;
+  padding-right: 1000px !important;
+  padding-bottom: 202px;
+}
+

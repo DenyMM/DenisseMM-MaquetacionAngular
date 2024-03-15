@@ -1,0 +1,63 @@
+<!--button routerLink="codigo">QR</-button>
+<mat-icon-- aria-hidden="false" aria-label="Example home icon" fontIcon="logout"></mat-icon-->
+
+
+        <mat-toolbar class="grayBar">
+            <span class="topBarExit"></span>
+            <button mat-icon-button class="orangeButton">
+              <mat-icon>logout</mat-icon>
+            </button>
+          </mat-toolbar>
+
+    <mat-grid-list cols="6" rowHeight="374px">
+    <mat-grid-tile [style.grid-area]="'side'" [colspan]="1" [rowspan]="2" class="whiteBack gridMargin">
+        <mat-list role="list">
+            <mat-card class ="cardImg">
+            <img mat-card-image src="../../../assets/edificio1.png">
+        </mat-card>
+            <mat-list-item class="menuItems grayBar  textwhite">EDIFICIO 1</mat-list-item>
+                
+            <mat-list-item class="menuItems ">
+                <mat-icon  class="iconFix" fontSet="material-icons-outlined" >dashboard</mat-icon>
+                <span class="textFix">DASHBOARD</span> 
+                </mat-list-item>
+                
+            <mat-list-item class="menuItems">
+                <mat-icon class="iconFix" fontSet="material-icons-outlined" >request_page</mat-icon>
+                <span class="textFix">FINANZAS</span> 
+                <mat-icon  class="iconEnd">expand_more</mat-icon>
+            </mat-list-item>               
+
+              <mat-list-item class="menuItems ">
+                <mat-icon class="iconFix" fontSet="material-icons-outlined">person_</mat-icon>
+                <span class="textFix">USUARIOS</span>
+            </mat-list-item>
+
+                <mat-list-item class="menuItems ">
+                    <mat-icon class="iconFix" fontSet="material-icons-outlined">people</mat-icon>
+                    <span class="textFix">VISITAS</span>     
+                    <mat-icon  class="iconEndd">expand_more</mat-icon></mat-list-item>
+
+              <mat-list-item class="menuItems textFixx">VISITAS</mat-list-item>
+              <mat-list-item class="menuItems textFixx">PRÓXIMAS</mat-list-item>
+              <mat-list-item class="menuItems textFixx">BITÁCORA</mat-list-item> 
+              <mat-list-item class="spacer">
+                <mat-card>
+                    <mat-card-content>
+                    </mat-card-content>
+                </mat-card>
+              </mat-list-item>
+</mat-list>
+    </mat-grid-tile>
+    
+
+
+    <mat-grid-tile [colspan]="5" [rowspan]="2" class="whiteBack siderform">
+        <app-home></app-home>
+        <!--app-form-></app-form-->
+        <!--app-qr></app-qr-->
+    </mat-grid-tile>
+</mat-grid-list>
+
+
+  

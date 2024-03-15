@@ -1,0 +1,78 @@
+.topBarExit {
+    justify-content: flex-start !important;
+}
+
+.back{
+    font-size: 15px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+
+
+.whiteBar{
+    background-color: white;
+}
+
+.sidecontainer .formContainer {
+    justify-content: flex-start !important;
+}
+
+mat-form-field{
+    padding-left: 10px;
+    font-size: 11px;
+    margin-top: -7px !important;
+}
+
+.comentArea{
+    
+    margin-right: 10px;
+    height: 110px;
+    width: 480px;
+    
+    background-color: white !important;
+}
+
+.inputArea{
+    height: 90px;
+    width: 230px;
+}
+
+.selectArea{
+    height: 90px;
+    width: 230px;
+}
+
+.dateArea{
+    height: 90px;
+    width: 230px;
+}
+
+.toggleArea{
+    height: 90px;
+    width: 300px;
+}
+
+
+mat-slide-toggle{
+    padding-left: 11px;
+}
+
+input{
+    background-color: rgb(255, 255, 255) !important;
+}
+
+.green{
+    background-color: green !important;
+    
+    color: white;
+}
+
+.butone{
+    color: white;
+    font-size: 11px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 10px;
+}
+

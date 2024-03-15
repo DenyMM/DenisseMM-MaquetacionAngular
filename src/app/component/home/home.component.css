@@ -1,0 +1,79 @@
+.container{
+    width: 1550px;
+    margin-right: 190px;
+    margin-bottom: 240px;
+}
+
+h2{
+    font-size: 30px;
+    color: #606060;
+}
+
+p{
+    font-size: 20PX;
+    color: #606060;
+    font-weight: 200;
+}
+
+.dateArea{
+    width: 200px;
+    height: 20px;
+    margin-right: 20px;
+}
+
+.buttonTable{
+    width: 200px;
+    height: 57px;
+}
+
+.clean{
+    background-color: rgb(206, 7, 7);
+    margin-right: 20px;
+    box-shadow: none !important;
+    border-radius:4px;
+    color: white !important;
+}
+
+.search{
+    background-color: green;
+    margin-right: 20px;
+    box-shadow: none !important;
+    border-radius:4px;
+    color: white !important;
+}
+
+.addVis{
+    background-color: rgb(58, 56, 63);
+    border-radius:36px!important;
+    color: white !important;
+    margin-left: 360px;
+    width: 240px;
+    height: 57px;
+}
+
+th{
+    background-color: #606060 !important;
+    color: white !important;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+tr{
+    background-color: #ececec;
+    font-size: 19px;
+    color: #606060;
+}
+
+table{
+    box-shadow: none !important;
+}
+
+.greentext{
+    color: white !important;
+    border-style: solid 1px;
+    border-color: #606060;
+    background-color: green;
+    border-radius: 4px;
+    width: 30px;
+    font-size: 15 !important;
+}

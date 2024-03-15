@@ -1,0 +1,84 @@
+<mat-toolbar class="whiteBar">
+    <span class="topBarExit"></span>
+    <button mat-icon-button class="orangeButton">
+      <mat-icon class="iconBack"><span class="material-symbols-outlined">
+        arrow_back
+        </span></mat-icon>
+        <span class="back">Regresar</span>
+    </button>
+  </mat-toolbar>
+  <br>
+  <h1>REGISTRAR VISITA</h1>
+  <br>
+  
+  <div class="formContainer">
+<div class="sidecontainer">
+    <mat-form-field class="inputArea" appearance="outline">
+        <span>Nombre</span>
+        <input matInput >
+      </mat-form-field>
+      <mat-form-field class="inputArea" appearance="outline">
+        <span>Apellido Paterno</span>
+        <input matInput>
+      </mat-form-field>
+      <mat-form-field class="inputArea" appearance="outline">
+        <span>Apellido Materno</span>
+        <input matInput>
+      </mat-form-field>
+  </div>
+  <br>
+<div class="sidecontainer">
+    <mat-form-field class="selectArea" appearance="outline">
+        <span>Relación con el visitante</span>
+        <mat-select>
+          <mat-option value="one">Familiar</mat-option>
+          <mat-option value="two">Amigo</mat-option>
+        </mat-select>
+      </mat-form-field>
+      <mat-form-field class="inputArea" appearance="outline">
+        <span>Acompanantes</span>
+        <input matInput>
+      </mat-form-field>
+      <mat-form-field class="dateArea" appearance="outline">
+        <span>Dia de visita</span>
+        <input matInput [matDatepicker]="picker">
+        <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
+        <mat-datepicker #picker></mat-datepicker>
+      </mat-form-field>
+</div>
+<br>
+<div class="sidecontainer">
+    <mat-form-field class="dateArea" appearance="outline">
+        <span>Hora de acceso</span>
+        <input type="text" matInput [matTimepicker]="timepicker" />
+        <mat-timepicker-toggle matSuffix [for]="timepicker"></mat-timepicker-toggle>
+        <mat-timepicker #timepicker></mat-timepicker>
+      </mat-form-field>
+      <mat-form-field class="selectArea" appearance="outline">
+        <span>Tolerancia</span>
+        <mat-select>
+          <mat-option value="one">First option</mat-option>
+          <mat-option value="two">Second option</mat-option>
+        </mat-select>
+      </mat-form-field>
+      <mat-form-field class="togglerArea" appearance="outline">
+        <input matInput class="hidethis">
+        <label >Uso de estacionamiento </label>
+        <mat-slide-toggle color="primary"></mat-slide-toggle>
+        
+      </mat-form-field>
+      
+</div>
+<br>
+<div class="sidecontainer">
+    <mat-form-field class="comentArea" appearance="outline">
+        <span>Comentarios</span>
+        <textarea matInput></textarea>
+      </mat-form-field>
+</div>
+<div class="sidecontainer">
+    <br>
+    <button mat-raised-button class="butone" color="warn">Cancelar</button>
+    <button mat-raised-button class="green butone" routerLink="codigo">Guardar</button>
+</div>
+</div>
